@@ -12,6 +12,9 @@ Here are the projects included in this repository:
 2. **Merge Sort (Recursion)** - [`/mergesort`](./mergesort)  
    Recursive implementation of the Merge Sort algorithm.
 
+3. **Linked List** - [`/linkedlist`](./linkedlist/)
+   Implementation of a Linked List.
+
 ## Purpose
 
 This repository serves as:
