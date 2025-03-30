@@ -145,7 +145,43 @@ export class LinkedList {
 
         const node = new Node(value);
         node.next = cur.next;
-        cur.next = node;
+        cur .next = node;
+        // Check if the item is the new tail.
+        if (this.#tail === cur) {
+            this.#tail = node;
+        }
+    }
+
+    removeAt(index) {
+        if (index < 0) {
+            throw RangeError('Index out of bounds');
+        }
+
+        if (index == 0) {
+            this.#head = this.#head.next;
+            return;
+        }
+
+        let cur = null;
+        let count = 0;
+
+        for (cur = this.#head; cur != null; cur = cur.next) {
+            if (count === index - 1) {
+                break;
+            }
+
+            count++;
+        }
+
+        if (cur.next === null) {
+            throw RangeError('Index out of bounds');
+        }
+
+        if (this.#tail === cur.next) {
+            this.#tail = cur;
+        }
+
+        cur.next = cur.next?.next;
     }
 
     toString() {

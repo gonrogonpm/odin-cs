@@ -61,8 +61,9 @@ console.log('\n--- INSERT AT END ---\n');
 console.log(`list: ${list.toString()}`);
 list.insertAt('bat', list.size);
 console.log(`list: ${list.toString()}`);
+console.log(`tail: ${list.tail}`);
 
-console.log('\n--- INSERT OUT OF BOUNDS ---\n');
+console.log('\n--- INSERT AT OUT OF BOUNDS ---\n');
 
 try {
     list.insertAt('bat', -1);
@@ -73,6 +74,41 @@ catch (error) {
 
 try {
     list.insertAt('bat', list.size + 1);
+}
+catch (error) {
+    console.log(`error: ${error}`);
+}
+
+console.log('\n--- REMOVE AT INDEX 2 ---\n');
+
+console.log(`list: ${list.toString()}`);
+list.removeAt(2);
+console.log(`list: ${list.toString()}`);
+
+console.log('\n--- REMOVE AT BEGINNING ---\n');
+
+console.log(`list: ${list.toString()}`);
+list.removeAt(0);
+console.log(`list: ${list.toString()}`);
+
+console.log('\n--- REMOVE AT END ---\n');
+
+console.log(`list: ${list.toString()}`);
+list.removeAt(list.size - 1);
+console.log(`list: ${list.toString()}`);
+console.log(`tail: ${list.tail}`);
+
+console.log('\n--- REMOVE AT OUT OF BOUNDS ---\n');
+
+try {
+    list.removeAt(-1);
+}
+catch (error) {
+    console.log(`error: ${error}`);
+}
+
+try {
+    list.removeAt(list.size);
 }
 catch (error) {
     console.log(`error: ${error}`);
