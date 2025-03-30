@@ -6,13 +6,13 @@ This repository contains projects related to the **Computer Science** section of
 
 Here are the projects included in this repository:
 
-1. **Fibonacci (Recursion)** - [`/fibonacci`](./fibonacci)
+1. **Fibonacci (Recursion)** - [`/fibonacci`](./fibonacci)  
    Implementation of Fibonacci sequence using recursive approaches.
 
-2. **Merge Sort (Recursion)** - [`/mergesort`](./mergesort)
+2. **Merge Sort (Recursion)** - [`/mergesort`](./mergesort)  
    Recursive implementation of the Merge Sort algorithm.
 
-3. **Linked List** - [`/linkedlist`](./linkedlist/)
+3. **Linked List** - [`/linkedlist`](./linkedlist/)  
    Implementation of a Linked List.
 
 ## Purpose
