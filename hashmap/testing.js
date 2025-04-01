@@ -7,7 +7,7 @@ export function assertEqual(current, expected, testName) {
     } else {
         console.error(`❌ FAIL: ${testName}`);
         console.error(`    Expected: ${expectedStr}`);
-        console.error(`    Actual:   ${currentStr}`);
+        console.error(`    Current:  ${currentStr}`);
     }
 }
 

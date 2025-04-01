@@ -179,7 +179,7 @@ export class HashMap {
                 break;
             }
         }
-        // If the key is found, the old value is overwritten.
+        
         if (node != null) {
             // If there is no previous node, the node is the head of the linked list.
             if (prev === null) {
