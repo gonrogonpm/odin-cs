@@ -153,7 +153,7 @@ export class HashMap {
             }
             this.#count++;
         }
-        // Check if the hashmap need to grow to insert a new item.
+        // Check if the hash map need to grow to insert a new item.
         if (this.#count > this.capacity * this.#loadFactor) {
             this.#grow();
         }
