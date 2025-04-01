@@ -13,7 +13,10 @@ Here are the projects included in this repository:
    Recursive implementation of the Merge Sort algorithm.
 
 3. **Linked List** - [`/linkedlist`](./linkedlist/)  
-   Implementation of a Linked List.
+   Implementation of the Linked List.
+
+4. **Hash Map** - [`/hashmap`](./hashmap/)  
+   Implementation of the Hash Map and the Hash Set.
 
 ## Purpose
 
