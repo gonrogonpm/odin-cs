@@ -18,6 +18,9 @@ Here are the projects included in this repository:
 4. **Hash Map** - [`/hashmap`](./hashmap/)  
    Implementation of the Hash Map and the Hash Set.
 
+5. **Binary Search Tree** - [`/binarysearchtree`](./binarysearchtree/)  
+   Implementation of the Binary Search Tree.
+
 ## Purpose
 
 This repository serves as:
