@@ -21,6 +21,9 @@ Here are the projects included in this repository:
 5. **Binary Search Tree** - [`/binarysearchtree`](./binarysearchtree/)  
    Implementation of the Binary Search Tree.
 
+6. **Knights Travails** - [`/knightstravails`](./knightstravails/)  
+   Solution to the Knights Travails problem.
+
 ## Purpose
 
 This repository serves as:
